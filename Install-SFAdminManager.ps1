@@ -19,7 +19,7 @@
 # ============================================================
 # CONFIGURATION
 # ============================================================
-$ExtensionID  = if ($env:ExtensionID)  { $env:ExtensionID }  else { "YOUR_32_CHARACTER_EXTENSION_ID" }
+$ExtensionID  = if ($env:ExtensionID)  { $env:ExtensionID }  else { "pcebaddpadiagolcncmeholgfeiegpgc" }
 $UpdateXMLURL = if ($env:UpdateXMLURL) { $env:UpdateXMLURL } else { "https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml" }
 $BrowserList  = if ($env:Browsers)     { $env:Browsers }     else { "Chrome,Edge,Brave" }
 
