@@ -16,7 +16,7 @@
 # ============================================================
 # CONFIGURATION
 # ============================================================
-$ExtensionID = if ($env:ExtensionID) { $env:ExtensionID } else { "YOUR_32_CHARACTER_EXTENSION_ID" }
+$ExtensionID = if ($env:ExtensionID) { $env:ExtensionID } else { "pcebaddpadiagolcncmeholgfeiegpgc" }
 $BrowserList = if ($env:Browsers)    { $env:Browsers }    else { "Chrome,Edge,Brave" }
 
 if ($ExtensionID -eq "YOUR_32_CHARACTER_EXTENSION_ID" -or $ExtensionID.Length -ne 32) {
