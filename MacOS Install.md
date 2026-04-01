@@ -6,24 +6,24 @@ Open Terminal and run these commands:
 
 Chrome:
 # Force install
-sudo defaults write /Library/Managed\ Preferences/com.google.Chrome ExtensionInstallForcelist -array-add "<pcebaddpadiagolcncmeholgfeiegpgc>;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml"
+sudo defaults write /Library/Managed\ Preferences/com.google.Chrome ExtensionInstallForcelist -array-add "pcebaddpadiagolcncmeholgfeiegpgc;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml"
 
 # Allowlist
-sudo defaults write /Library/Managed\ Preferences/com.google.Chrome ExtensionInstallAllowlist -array-add "<pcebaddpadiagolcncmeholgfeiegpgc>"
+sudo defaults write /Library/Managed\ Preferences/com.google.Chrome ExtensionInstallAllowlist -array-add "pcebaddpadiagolcncmeholgfeiegpgc"
 
 Edge:
 # Force install
-sudo defaults write /Library/Managed\ Preferences/com.microsoft.Edge ExtensionInstallForcelist -array-add "<pcebaddpadiagolcncmeholgfeiegpgc>;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml"
+sudo defaults write /Library/Managed\ Preferences/com.microsoft.Edge ExtensionInstallForcelist -array-add "pcebaddpadiagolcncmeholgfeiegpgc;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml"
 
 # Allowlist
-sudo defaults write /Library/Managed\ Preferences/com.microsoft.Edge ExtensionInstallAllowlist -array-add "<pcebaddpadiagolcncmeholgfeiegpgc>"
+sudo defaults write /Library/Managed\ Preferences/com.microsoft.Edge ExtensionInstallAllowlist -array-add "pcebaddpadiagolcncmeholgfeiegpgc"
 
 Brave:
 # Force install
-sudo defaults write /Library/Managed\ Preferences/com.brave.Browser ExtensionInstallForcelist -array-add "<pcebaddpadiagolcncmeholgfeiegpgc>;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml"
+sudo defaults write /Library/Managed\ Preferences/com.brave.Browser ExtensionInstallForcelist -array-add "pcebaddpadiagolcncmeholgfeiegpgc;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml"
 
 # Allowlist
-sudo defaults write /Library/Managed\ Preferences/com.brave.Browser ExtensionInstallAllowlist -array-add "<pcebaddpadiagolcncmeholgfeiegpgc>"
+sudo defaults write /Library/Managed\ Preferences/com.brave.Browser ExtensionInstallAllowlist -array-add "pcebaddpadiagolcncmeholgfeiegpgc"
 
 
 3. Restart the browsers
