@@ -4,21 +4,21 @@ You'll need your 32-character extension ID for all three.
 2. Create the plist files
 Open Terminal and run these commands:
 
-Chrome:
+## Chrome:
 # Force install
 sudo defaults write /Library/Managed\ Preferences/com.google.Chrome ExtensionInstallForcelist -array-add "pcebaddpadiagolcncmeholgfeiegpgc;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml"
 
 # Allowlist
 sudo defaults write /Library/Managed\ Preferences/com.google.Chrome ExtensionInstallAllowlist -array-add "pcebaddpadiagolcncmeholgfeiegpgc"
 
-Edge:
+## Edge:
 # Force install
 sudo defaults write /Library/Managed\ Preferences/com.microsoft.Edge ExtensionInstallForcelist -array-add "pcebaddpadiagolcncmeholgfeiegpgc;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml"
 
 # Allowlist
 sudo defaults write /Library/Managed\ Preferences/com.microsoft.Edge ExtensionInstallAllowlist -array-add "pcebaddpadiagolcncmeholgfeiegpgc"
 
-Brave:
+## Brave:
 # Force install
 sudo defaults write /Library/Managed\ Preferences/com.brave.Browser ExtensionInstallForcelist -array-add "pcebaddpadiagolcncmeholgfeiegpgc;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml"
 
