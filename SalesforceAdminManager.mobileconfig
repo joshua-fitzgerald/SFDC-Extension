@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <!-- Google Chrome -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.google.Chrome</string>
+            <key>PayloadIdentifier</key>
+            <string>com.kaseya.sfadminmanager.chrome</string>
+            <key>PayloadUUID</key>
+            <string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>ExtensionInstallForcelist</key>
+            <array>
+                <string>pcebaddpadiagolcncmeholgfeiegpgc;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml</string>
+            </array>
+        </dict>
+        <!-- Microsoft Edge -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.microsoft.Edge</string>
+            <key>PayloadIdentifier</key>
+            <string>com.kaseya.sfadminmanager.edge</string>
+            <key>PayloadUUID</key>
+            <string>B2C3D4E5-F6A7-8901-BCDE-F12345678901</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>ExtensionInstallForcelist</key>
+            <array>
+                <string>pcebaddpadiagolcncmeholgfeiegpgc;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml</string>
+            </array>
+        </dict>
+        <!-- Brave Browser -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.brave.Browser</string>
+            <key>PayloadIdentifier</key>
+            <string>com.kaseya.sfadminmanager.brave</string>
+            <key>PayloadUUID</key>
+            <string>C3D4E5F6-A7B8-9012-CDEF-123456789012</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>ExtensionInstallForcelist</key>
+            <array>
+                <string>pcebaddpadiagolcncmeholgfeiegpgc;https://github.com/joshua-fitzgerald/SFDC-Extension/raw/main/updates.xml</string>
+            </array>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Salesforce Admin Manager Extension</string>
+    <key>PayloadDescription</key>
+    <string>Force-installs the Salesforce Admin Manager browser extension for Chrome, Edge, and Brave.</string>
+    <key>PayloadIdentifier</key>
+    <string>com.kaseya.sfadminmanager</string>
+    <key>PayloadOrganization</key>
+    <string>Kaseya</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>D4E5F6A7-B8C9-0123-DEFA-234567890123</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+</dict>
+</plist>
