@@ -1,19 +1,10 @@
 <#
 .SYNOPSIS
-    Datto RMM Component - Force-install Salesforce Admin Manager on Chrome, Edge & Brave
+   Force-install Salesforce Admin Manager on Chrome, Edge & Brave
 .DESCRIPTION
     Adds registry entries under ExtensionInstallForcelist for all targeted
     Chromium browsers to silently install the extension on next launch.
     No developer mode or user interaction required.
-
-.NOTES
-    Deploy as a Datto RMM Component (PowerShell, Run As: System)
-    
-    VARIABLES (set in Datto RMM component variables):
-    - ExtensionID:  Your 32-character Chrome extension ID
-    - UpdateXMLURL: Full HTTPS URL to your hosted updates.xml
-    - Browsers:     (Optional) Comma-separated: Chrome,Edge,Brave
-                    Defaults to all three if not specified
 #>
 
 # ============================================================
