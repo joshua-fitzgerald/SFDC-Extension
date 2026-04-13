@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-    Datto RMM Component - Remove Salesforce Admin Manager from Chrome, Edge & Brave
+   Remove Salesforce Admin Manager from Chrome, Edge & Brave
 .DESCRIPTION
     Removes the extension from ExtensionInstallForcelist for all targeted browsers.
     The browser will uninstall the extension on next launch.
 
 .NOTES
-    Deploy as a Datto RMM Component (PowerShell, Run As: System)
+    
     
     VARIABLES:
     - ExtensionID: Your 32-character extension ID
